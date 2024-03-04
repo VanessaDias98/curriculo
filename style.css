@@ -1,0 +1,72 @@
+ 
+
+#title{
+   background-color: white;
+    width: 400px;
+    height: 80px;
+    margin: 0px auto;
+    text-align: center;
+    font-family: 'Hubballi', sans-serif;
+    
+}
+
+#title h1,h2{
+    margin: 0;
+}
+
+
+#div1{
+ width: 1400px;
+ height: 80px;
+ background-color: antiquewhite;
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+
+#listcontact{
+    list-style-type: none;
+}
+
+#listcontact i{
+    width: 30px;
+    color:rgb(250, 215, 248);
+    margin: 0 auto;
+    
+
+}
+
+
+
+#divprincipal {
+    display: grid;
+    grid-template-columns:30% auto ;
+    grid-column-gap: 20px;
+    
+}
+
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.card h3{
+    font-family: 'Hubballi', sans-serif;
+}
+
+h1,h2,h3 {
+    text-transform: uppercase;
+}
+
+.card{
+    font-family: 'Montserrat', sans-serif;
+    border: 1px gray solid;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 10px
+}
+
+#icone {
+    color: aliceblue;
+}
